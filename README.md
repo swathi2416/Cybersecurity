@@ -12,7 +12,7 @@ logical control
 Port scanning
 protocols(sets of rules)
 ports(65,535-tcp,65,535-udp-1,73000 ports)entry gate
-433 port-https(safe website)
+443 port-https(safe website)
 80 port-http(unsafe website)
 blockchain
 exploit
@@ -35,3 +35,20 @@ web page-ideas in written format
 web site-collection of webpages
 web application-where user interaction is high
 web server-
+Offensive(red) and defensive(blue)-soc(security operation )reverse engineering,both(purple)
+3 type of hackers:
+white hat(architecture of web application),black hat,grey hat
+hactivism - social purpose
+CIA-Confidentiality,Integrity,Availability
+authentication-verifying someones indentification
+3 factors: something u know,something u have,someyhing u are(fingerprint)
+integrity-orginality 
+athourization/access control-permission
+conversion of original data to sifer data-encrpytion
+breach-loss of control
+event-any observable occurance
+incident-whichs affects CIA
+intrusion-security event
+threat-possibility to damage
+TOE-Target of Evaluation
+
