@@ -70,6 +70,10 @@ ipconfig --help
 linux -c switch counts
 windows -n switch no.of counts
 network device permanent address is mac
+ceaser cipher
+DES-data encryption standard 56bit
+3XDES
+AES-128 bit,192bit,256 bit
 
 
 
