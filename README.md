@@ -61,4 +61,78 @@ steps to treat a crime: identify the request,check the type of authorization,res
 cryptography is atechnique used to hide the information(crpyto-hidden/secret)
 types: symmetric/private key- only 2 people authorized people can access given by password
 asymmetric/public key- many of them have the password to access
+.bat and .exec window path
+simple attacks:
+@echo off
+start mspaint
+start cmd
+ipconfig --help
+linux -c switch counts
+windows -n switch no.of counts
+network device permanent address is mac
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+same devices connecting crossover wire
+different devices connecting strainghthrough wire
+for connecting 2 routers serial cables r used
