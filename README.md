@@ -130,7 +130,10 @@ vpn to break firewall,masking,encrypt the connection btw client and server,encry
 after vpn connect ip(like 10.10.10.2) will get changed by encryotion algorithm
 encryption-clear text->cipher text
 decryption-cipher text->clear text
-proxy
+encryption(2 way) and hashing(1 way)
+md4 hash generator to get hash
+brute force attack is all possible permutation and combination
+finding password from txt document is called dictonary attack
 
 
 
