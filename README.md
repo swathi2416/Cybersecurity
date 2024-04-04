@@ -74,6 +74,24 @@ ceaser cipher
 DES-data encryption standard 56bit
 3XDES
 AES-128 bit,192bit,256 bit
+DHCP-AUTOMATICALLY ASSIGNS IP ADDRESS
+DNS SERVER-CONVERTS DOMAIN NAME TO IP AND IP TO DOMAIN NAME
+LINUX OPERATING SYSTEM RELEASED-*1991*
+COMMAND USED FOR OUTPUT-*echo TEXT*
+USERNAME LOGGED TO DEPLOYED LINUX MACHINE-*tryhackme*
+If we wanted to run a command in the background, what operator would we want to use-*&*
+If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be-*echo password123>passwords*
+Now if I wanted to add "tryhackme" to this file named "passwords" but also keep "passwords123", what would my command be-*echo tryhackme>>passwords*
+*LINUX IS USED IN:*
+         CAR,ENTERTAINMENT,REGISTER IN SHOPS,TRAFFIC LIGHT INFRASTRUCTURE
+*echo*== Output any text that we provide
+*whoami* ==	Find out what user we're currently logged in as!
+what exists in the first place ==*ls*
+DISPLAY THE CURRENT FILE == *cd*
+CONCATENATION ==*cd*
+displays the full pathname of the current directory == *pwd*
+a command used for searching specific values in content == *grep*
+to brute-force FakeBank's website to find hidden directories and pages we will use the command *"GoBuster"*
 
 
 
