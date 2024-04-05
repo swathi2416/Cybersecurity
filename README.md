@@ -145,7 +145,29 @@ In which category can you find a reference to a "Cookie jar"? - *Sessions*
 In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour? - *Suite*
 What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite? - *Hotkeys*
 If we have uploaded Client-Side TLS certificates, can we override these on a per-project basis (yea/nay)? -*yea*
-
+3 ,**TLS** handshake  will occur in https(assymetric)(encrypted)(port 80)(secured)
+urgent and push flag will send the packets automatically
+PACKET CRAFTER-Packet will be created by own and will be sent
+Clent Request ------->server  Response ---->DB
+HTTP Methods                              **Response code**
+GET                                 starts with **1xx**-Informational
+POST used to send data                          **2xx**-(SUCCESS)OK
+PUT used to change the data                     **3xx**-REDIRECTION
+OPTIONS                                         **4xx**-Client-side  Error
+DELETE                                          **5xx**-Server side error
+Security Testing  done by three ways
+QA Environment-testing build
+Staging Environment-Actual cpy of production
+Production Environment-Live websites/web app
+Client----->**BURP PROXY* ----->Server   <----- **BRUPSUITE**
+6 Proxy are working in** TOR** Between clent and server
+Proxy controls responses and req
+User Agent is the browser
+****kali commands**
+sudo- do as super user
+route for linux
+1.sudo service NetworkManager start
+2.sudo nmcli networking on
 
 
 
