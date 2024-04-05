@@ -175,8 +175,15 @@ route for linux
 top level domain(tld)-WWW
 http://www.example.com/directory1/directory2/filename.html
 https://www.example.com/index.html
-LINUX Directory Path:ls /var/www/html/
+**LINUX Directory Path** :ls /var/www/html/
 ls -l/var/www/html/ this shows in vertical
+**window directory path**: c:\inetpath\wwwroot
+**HTTP/2**-HTTPS
+**HTTP/1.1**-HTTP
+/-INDEX PAGE
+**WAF**-Web Application Firewall +rate limiting 
+username enumeration
+**seclist** in github contains no.of words
 
 
 
