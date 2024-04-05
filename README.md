@@ -134,6 +134,17 @@ encryption(2 way) and hashing(1 way)
 md4 hash generator to get hash
 brute force attack is all possible permutation and combination
 finding password from txt document is called dictonary attack
+a set of tools used for penetration testing of web applications - *BURPSUITE*
+Which edition of Burp Suite runs on a server and provides constant scanning for target web apps? - *Burp Suite Enterprise*
+Burp Suite is frequently used when attacking web applications and __ applications - *Mobile*
+Which Burp Suite feature allows us to intercept requests between ourselves and the target? - *Proxy*
+Which Burp tool would we use to brute-force a login form? - *Intruder*
+What menu provides information about the actions performed by Burp Suite, such as starting the proxy, and details about connections made through Burp? - *Event log*
+Which tab Ctrl + Shift + P will switch us to? - *Proxy tab*
+In which category can you find a reference to a "Cookie jar"? - *Sessions*
+In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour? - *Suite*
+What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite? - *Hotkeys*
+If we have uploaded Client-Side TLS certificates, can we override these on a per-project basis (yea/nay)? -*yea*
 
 
 
