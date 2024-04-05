@@ -168,6 +168,8 @@ sudo- do as super user
 route for linux
 1.sudo service NetworkManager start
 2.sudo nmcli networking on
+3. cat /etc/apt/sources.list to read
+4.nano /etc/apt/sources.list 
 
 
 
