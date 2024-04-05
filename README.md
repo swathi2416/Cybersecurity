@@ -171,6 +171,14 @@ route for linux
 3. cat /etc/apt/sources.list to read
 4.nano /etc/apt/sources.list  
 **cookies**-validate the session
+**web protocol** -http/https
+top level domain(tld)-WWW
+http://www.example.com/directory1/directory2/filename.html
+https://www.example.com/index.html
+LINUX Directory Path:ls /var/www/html/
+ls -l/var/www/html/ this shows in vertical
+
+
 
 
 
