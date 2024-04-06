@@ -27,7 +27,10 @@ hashing
 spoofing
 meta sploit-tool
 back door
-cross site 
+cross site
+same devices connecting crossover wire
+different devices connecting straighthrough wire
+for connecting 2 routers serial cables r used
 Hacking - gaining unauthorized access
 ethical hacking-gaining unauthorized access with written concern
 web application peneration/security testing
@@ -155,10 +158,10 @@ POST used to send data                          **2xx**-(SUCCESS)OK
 PUT used to change the data                     **3xx**-REDIRECTION
 OPTIONS                                         **4xx**-Client-side  Error
 DELETE                                          **5xx**-Server side error
-Security Testing  done by three ways
-QA Environment-testing build
-Staging Environment-Actual cpy of production
-Production Environment-Live websites/web app
+**Security Testing  done by three ways**
+1.QA Environment-testing build
+2.Staging Environment-Actual cpy of production
+3.Production Environment-Live websites/web app
 Client----->**BURP PROXY* ----->Server   <----- **BRUPSUITE**
 6 Proxy are working in** TOR** Between clent and server
 Proxy controls responses and req
@@ -184,6 +187,40 @@ ls -l/var/www/html/ this shows in vertical
 **WAF**-Web Application Firewall +rate limiting 
 username enumeration
 **seclist** in github contains no.of words
+**VA**-Vulnerability Assessment
+**RISK MATRIX**-Likelihood(occurance/possibility) and impact
+**Vulnerability Asessment Process**
+1.Asset discovery
+2.Vulnerability scanning
+3.Vulnerability assessment
+4.Vulnerability remidition
+**CVSS Score(Common Vulneralibity Scoring System)**-NIST website shows the rating of vulnerability
+**Severity score**-------->none         0.0
+                           Low          0.1-3.9
+                           Medium       4.0-6.9
+                           High         7.0-8.9
+                           Critical     9-10
+**user interaction** -if the user click the link will get exploited
+**passive interaction**
+Automated vulnerabilty scanner--->Database vul scanner
+                                  network vul
+                                  web application
+                                  host based
+                                  API based-Application Prrogramming Interface  (data will transfer frontend to backend)
+                                  Cloud based
+Manual vulnerabilty scanner-pen testing
+ ------- **CYBER SECURITY TERMS**----------
+1.Policy-rules of governace
+2.Procedure-step by step
+3.Standard-regulations are given by government
+4.Regulation
+**SAST TOOLS** -Static application security testing
+ ----------**5 phases of Hacking**------------
+1.Information gathering
+2.Scanning
+3.Gaining accsess
+4.Maintaining Access
+5.Clearing Track
 
 
 
@@ -248,6 +285,3 @@ username enumeration
 
 
 
-same devices connecting crossover wire
-different devices connecting strainghthrough wire
-for connecting 2 routers serial cables r used
