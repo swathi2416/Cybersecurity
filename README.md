@@ -221,6 +221,10 @@ Manual vulnerabilty scanner-pen testing
 3.Gaining accsess
 4.Maintaining Access
 5.Clearing Track
+**offensive pentesting**(hacking machines and reporting on vulnerabilities) 
+**defensive security** (defending against and investigating cyberattacks)
+Security analyst-protect the company from attacks.
+**SQL INJECTION**-administrator '-- this will crack the username and no need of password 
 
 
 
