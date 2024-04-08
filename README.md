@@ -1,19 +1,19 @@
 Networks
-vulnerability(weakness)
+vulnerability**(weakness)**
 hashcat,brute force-password cracking tool
 Attacks-cracking (using) hardware without permission,
-RAT-Remote Access Trojan
+**RAT**-Remote Access Trojan
 securing the data, resources
 safe gurading
-controls:
-phsical control
-administrative control
-logical control
+**controls:**
+1.phsical control
+2.administrative control
+3.logical control
 Port scanning
 protocols(sets of rules)
-ports(65,535-tcp,65,535-udp-1,73000 ports)entry gate
-443 port-https(safe website)
-80 port-http(unsafe website)
+**ports**(65,535-tcp,65,535-udp-1,73000 ports)entry gate
+**443** port-https(safe website)
+**80** port-http(unsafe website)
 blockchain
 exploit
 SQL injection
@@ -39,12 +39,12 @@ web site-collection of webpages
 web application-where user interaction is high
 web server-
 Offensive(red) and defensive(blue)-soc(security operation )reverse engineering,both(purple)
-3 type of hackers:
+**3 type of hackers:**
 white hat(architecture of web application),black hat,grey hat
 hactivism - social purpose
-CIA-Confidentiality,Integrity,Availability
+**CIA**-Confidentiality,Integrity,Availability
 authentication-verifying someones indentification
-3 factors: something u know,something u have,someyhing u are(fingerprint)
+**3 factors**: something u know,something u have,someyhing u are(fingerprint)
 integrity-orginality 
 athourization/access control-permission
 conversion of original data to sifer data-encrpytion
@@ -54,14 +54,14 @@ incident-whichs affects CIA
 intrusion-security event
 threat-possibility to damage
 TOE-Target of Evaluation
-Attacks:
-ransomeware - focusing on microsoft os by encrypting the messages nd demaning the payment in 2017
-botnets-done by bots focusing on online customers by changing their ip address
-phising- social engineering attack , it is a difficult attack by cliking a link , downloading a document
-chain of custody(forensic security)-prove in court about logs
+**Attacks:**
+**ransomeware** - focusing on microsoft os by encrypting the messages and demaning the payment in 2017
+**botnets**-done by bots focusing on online customers by changing their ip address
+**phising**- social engineering attack , it is a difficult attack by cliking a link , downloading a document
+**chain of custody**(forensic security)-prove in court about logs
 logs-os logs,data logs,application level logs ,network logs
 steps to treat a crime: identify the request,check the type of authorization,response should have awarness about each specific attacks
-cryptography is atechnique used to hide the information(crpyto-hidden/secret)
+**cryptography **is a technique used to hide the information(crpyto-hidden/secret)
 types: symmetric/single key- only 2 people authorized people can access given by password
 asymmetric/public/private key- many of them have the password to access
 .bat and .exec window path
@@ -70,8 +70,8 @@ simple attacks:
 start mspaint
 start cmd
 ipconfig --help
-linux -c switch counts
-windows -n switch no.of counts
+**linux **-c switch counts
+**windows** -n switch no.of counts
 network device permanent address is mac
 ceaser cipher
 DES-data encryption standard 56bit
@@ -225,6 +225,7 @@ Manual vulnerabilty scanner-pen testing
 **defensive security** (defending against and investigating cyberattacks)
 Security analyst-protect the company from attacks.
 **SQL INJECTION**-administrator '-- this will crack the username and no need of password 
+to search for path directory use this command ../../../ (filename)
 
 
 
