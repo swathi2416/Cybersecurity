@@ -225,8 +225,27 @@ Manual vulnerabilty scanner-pen testing
 **defensive security** (defending against and investigating cyberattacks)
 Security analyst-protect the company from attacks.
 **SQL INJECTION**-administrator '-- this will crack the username and no need of password 
-to search for path directory use this command ../../../ (filename)
+to search username & by image name(path traversal)  use this command ../../../etc/passwd
+                                               /etc/passwd
+                                               ....//....//....//etc/passwd
 fileinclusion/path traversal
+|-shows the left side usrs in the right side as a result (used to find user names)
+mkdir MKCE && cd MKCE && touch test   **----->** create the folder, directory,write 
+**SHELL**     web shell --->browser
+              bind shell-->process/service/port combine
+              reverse shell-->user intersction
+**revshell.com** (open power shell,python save in .py)
+**ip a** will find ip address paste it in **revshell**
+nc -lvnp 8888 will connect to user
+send the code to user
+after connected with user use this command 
+cd user
+ls
+TOOLS TO IDENTIFY THE SYSTEM IS HACKED OR NOT
+**TCPVIEW** will identify the connection
+**PROCESSEXPLORER**
+
+
 
 
 
