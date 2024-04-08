@@ -244,6 +244,7 @@ ls
 TOOLS TO IDENTIFY THE SYSTEM IS HACKED OR NOT
 **TCPVIEW** will identify the connection
 **PROCESSEXPLORER**
+canarytoken
 
 
 
