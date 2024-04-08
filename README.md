@@ -226,6 +226,7 @@ Manual vulnerabilty scanner-pen testing
 Security analyst-protect the company from attacks.
 **SQL INJECTION**-administrator '-- this will crack the username and no need of password 
 to search for path directory use this command ../../../ (filename)
+fileinclusion/path traversal
 
 
 
