@@ -248,6 +248,32 @@ canarytoken
 172.1.42.45 -pyphisphers
 ip link set dev ens33 up
 dhclient -v ens33
+SECURITY INFORMATION AND EVENT MANAGEMENT TOOL-*SIEM TOOL*
+*INCIDENT RESPONSE TEAM IS RESPONSIBLE FOR MITIGATING ALL THE ISSUES*
+SPLUNK FORWARDER IS TO BE INSTALLED ----> SERVER CAN BE CONNECTED WITH SPLUNK
+------------------------------------------------------------------------------------***********-----------------------------------------------------------------------------------------------
+# FOR CONNECTING KALI WITH COMMAND PROMPT
+KALI----->PLAYER----------->NETWORK ADAPTER--------->NAT------>OK
+IN ACADEMY, DHCLIENT -V ENS33
+BOUND IP ADDRESS---->PING THAT IP ADDRESS IN COMMAND PROMPT
+SSH ROOT@IP ADDRESS
+# ADD SPLUNK FORWARDER
+CHECK WHOAMI WHETHER IN LINUX OR NOT
+useradd -m splunkfwd
+groupadd splunkfwd
+export SPLUNK_HOME="/opt/splunkforwarder"
+mkdir $SPLUNK_HOME
+wget -O splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb "https://download.splunk.com/products/universalforwarder/releases/9.2.1/linux/splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb"
+ls
+dpkg -i splunkforwarder_package_name.deb -->put package name found in ls
+chown -R splunkfwd:splunkfwd $SPLUNK_HOME
+$SPLUNK_HOME/bin/splunk start --accept-license
+ping google.com -c 2
+cd /opt/splunkforwarder/bin
+./splunk status
+open new tab in cmd and check ipconfig paste the ip in old cmd
+give the username passwd which is given in splunk
+go to edge login login splunk -->setting-->receiving and forwarding --->port [9997] -->save
 
 
 
