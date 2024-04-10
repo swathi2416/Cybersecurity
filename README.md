@@ -251,7 +251,7 @@ dhclient -v ens33
 SECURITY INFORMATION AND EVENT MANAGEMENT TOOL-*SIEM TOOL*
 *INCIDENT RESPONSE TEAM IS RESPONSIBLE FOR MITIGATING ALL THE ISSUES*
 SPLUNK FORWARDER IS TO BE INSTALLED ----> SERVER CAN BE CONNECTED WITH SPLUNK
-------------------------------------------------------------------------------------***********-----------------------------------------------------------------------------------------------
+                                 ***********-----------------------------------------------------------------------------------------------
 # FOR CONNECTING KALI WITH COMMAND PROMPT
 KALI----->PLAYER----------->NETWORK ADAPTER--------->NAT------>OK
 IN ACADEMY, DHCLIENT -V ENS33
@@ -274,6 +274,16 @@ cd /opt/splunkforwarder/bin
 open new tab in cmd and check ipconfig paste the ip in old cmd
 give the username passwd which is given in splunk
 go to edge login login splunk -->setting-->receiving and forwarding --->port [9997] -->save
+monitoring and console ---->forward instance-->setup page ---?enable and save
+**academy** WILL VISIBLE IN THE PAGE
+**To check whether it is active or not**: ./splunk list forward-server
+**if not active then  remove**: ./splunk remove forward-server [ip]:9997
+**if not active then  add:** ./splunk add forward-server [ip]:9997
+**for restart** : ./splunk restart
+
+
+
+
 
 
 
