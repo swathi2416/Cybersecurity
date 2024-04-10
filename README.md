@@ -246,6 +246,8 @@ TOOLS TO IDENTIFY THE SYSTEM IS HACKED OR NOT
 **PROCESSEXPLORER**
 canarytoken
 172.1.42.45 -pyphisphers
+ip link set dev ens33 up
+dhclient -v ens33
 
 
 
