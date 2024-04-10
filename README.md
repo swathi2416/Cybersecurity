@@ -280,6 +280,7 @@ monitoring and console ---->forward instance-->setup page ---?enable and save
 **if not active then  remove**: ./splunk remove forward-server [ip]:9997
 **if not active then  add:** ./splunk add forward-server [ip]:9997
 **for restart** : ./splunk restart
+search/repoting-->host=academy
 
 
 
