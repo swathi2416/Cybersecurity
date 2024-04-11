@@ -276,9 +276,11 @@ give the username passwd which is given in splunk
 go to edge login login splunk -->setting-->receiving and forwarding --->port [9997] -->save
 monitoring and console ---->forward instance-->setup page ---?enable and save
 **academy** WILL VISIBLE IN THE PAGE
+**through powershell get into the splunk login:** cd /opt/splunkforwarder/bin
 **To check whether it is active or not**: ./splunk list forward-server
-**if not active then  remove**: ./splunk remove forward-server [ip]:9997
-**if not active then  add:** ./splunk add forward-server [ip]:9997
+**if not active then  remove**: ./splunk remove forward-server [ip]:9997 [remove the above ip -->Configured but inactive forwards:] 
+**if not active then  add:** ./splunk add forward-server [ip]:9997[paste the window ip]
+refresh the splunk 
 **for restart** : ./splunk restart
 search/repoting-->host=academy
 **windows defender firewall with adavanced security**-->To control inbound and outbound rules
