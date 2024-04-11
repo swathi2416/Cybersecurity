@@ -287,13 +287,34 @@ search/repoting-->host=academy
 action-->inbound-->port-->[tcp/udp]-->new rule --/specific 9997---> ok give name-splunk tcp(allowing local ip)
 subnet calculator-->paste the window ip and calculate 
 inbound-->tcp/udp bound---->scope-->these all ip---> paste the from and to ip -->
+**COMMANDS TO OPEN THE PORT**
+net discover-->open new cmd -->ip a[use the ip in old tab]
+ip generated upto 3 lines
+nano target.txt
+cat target.txt
+export target=3rd ip 
+ping $target[ctrl+c]
+nmap $target -p-  -v -min-rate=3000
+nmap $target -p21,22,80 -A -v -min-rate=3000 open_service.txt (port of tcp,ftp,http opened)
+Going into ftp--> ftp $target
+say bye
+cat note.txt(shows the hint)
+
+
+
+
+
+
 **NSE**--->N Map Scripting Engine 
 PORT SCANNING
 -p, -p1-65535 --min-rate=3000 -v -Pn, -p u:11 , -p T:21
 map [ip] -p1-65535 --min-rate=3000 -v -Pn
 target -p21,22,80 -A -v -min-rate=3000 -oN open-services.txt
 Anonyums login allowed means username is anonmuns
-ftp>
+Directory Brusting /**fuzzing**-finds the domain's no.of pages /files-->useful attack 
+**tools**:dirb,wfuzz,gobuster,ffuf
+Dirb [url]
+
 
 
 
