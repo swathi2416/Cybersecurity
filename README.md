@@ -284,8 +284,16 @@ refresh the splunk
 **for restart** : ./splunk restart
 search/repoting-->host=academy
 **windows defender firewall with adavanced security**-->To control inbound and outbound rules
-action-->allow-->new rule --/specific 9997---> ok give name-splunk tcp(allowing local ip)
-double click scope -->internal ip address
+action-->inbound-->port-->[tcp/udp]-->new rule --/specific 9997---> ok give name-splunk tcp(allowing local ip)
+subnet calculator-->paste the window ip and calculate 
+inbound-->tcp/udp bound---->scope-->these all ip---> paste the from and to ip -->
+**NSE**--->N Map Scripting Engine 
+PORT SCANNING
+-p, -p1-65535 --min-rate=3000 -v -Pn, -p u:11 , -p T:21
+map [ip] -p1-65535 --min-rate=3000 -v -Pn
+target -p21,22,80 -A -v -min-rate=3000 -oN open-services.txt
+Anonyums login allowed means username is anonmuns
+ftp>
 
 
 
