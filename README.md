@@ -281,6 +281,9 @@ monitoring and console ---->forward instance-->setup page ---?enable and save
 **if not active then  add:** ./splunk add forward-server [ip]:9997
 **for restart** : ./splunk restart
 search/repoting-->host=academy
+**windows defender firewall with adavanced security**-->To control inbound and outbound rules
+action-->allow-->new rule --/specific 9997---> ok give name-splunk tcp(allowing local ip)
+double click scope -->internal ip address
 
 
 
