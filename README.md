@@ -148,7 +148,7 @@ In which category can you find a reference to a "Cookie jar"? - *Sessions*
 In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour? - *Suite*
 What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite? - *Hotkeys*
 If we have uploaded Client-Side TLS certificates, can we override these on a per-project basis (yea/nay)? -*yea*
-3 ,**TLS** handshake  will occur in https(assymetric)(encrypted)(port 80)(secured)
+3 ,**TLS** (used to change key) handshake  will occur in https(assymetric)(encrypted)(port 80)(secured)
 urgent and push flag will send the packets automatically
 PACKET CRAFTER-Packet will be created by own and will be sent
 Clent Request ------->server  Response ---->DB
@@ -293,13 +293,14 @@ subnet calculator-->paste the window ip and calculate
 inbound-->tcp/udp bound---->scope-->these all ip---> paste the from and to ip -->
 **COMMANDS TO OPEN THE PORT**
 net discover(shows the ip range)-->open new cmd -->ip a[use the ip in old tab]
-ip generated upto 3 lines
+ip generated upto 3 lines 
+ip is stored in a target variable
 nano target.txt
 cat target.txt
 export target=3rd ip 
 ping $target[ctrl+c]
-nmap $target -p-  -v -min-rate=3000
-nmap $target -p21,22,80 -A -v -min-rate=3000 open_service.txt (port of tcp,ftp,http opened)
+nmap $target -p-  -v -min-rate=3000(shows how many ports are opened)
+nmap $target -p21,22,80 -A -v -min-rate=3000 open_service.txt (port of ftp,ssh,http opened)
 Going into ftp--> ftp $target
 say bye
 cat note.txt(shows the hint)
@@ -312,6 +313,10 @@ Anonyums login allowed means username is anonmuns
 Directory Brusting /**fuzzing**-finds the domain's no.of pages /files-->useful attack 
 **tools**:dirb,wfuzz,gobuster,ffuf
 Dirb [url]
+install seclists in kali
+locate raft-small
+dirb [url]/usr/share(c/p) path -r
+
 **Interview questions:**
 What is the use of ping?-->To communicate the window and acdemy,kali
 what is the use of ssh?-->Secure Shell (for remote desktop,remotely connect others device,copy/paste) 
