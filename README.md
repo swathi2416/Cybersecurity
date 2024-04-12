@@ -74,7 +74,7 @@ ipconfig --help
 **windows** -n switch no.of counts
 network device permanent address is mac
 ceaser cipher
-DES-data encryption standard 56bit
+**DES**-data encryption standard 56bit
 3XDES
 AES-128 bit,192bit,256 bit
 DHCP-AUTOMATICALLY ASSIGNS IP ADDRESS
@@ -246,23 +246,27 @@ TOOLS TO IDENTIFY THE SYSTEM IS HACKED OR NOT
 **PROCESSEXPLORER**
 canarytoken
 172.1.42.45 -pyphisphers
+
+--------------------------------ACADEMY-----------------------------
 ip link set dev ens33 up
 dhclient -v ens33
 SECURITY INFORMATION AND EVENT MANAGEMENT TOOL-*SIEM TOOL*
 *INCIDENT RESPONSE TEAM IS RESPONSIBLE FOR MITIGATING ALL THE ISSUES*
 SPLUNK FORWARDER IS TO BE INSTALLED ----> SERVER CAN BE CONNECTED WITH SPLUNK
-                                 ***********-----------------------------------------------------------------------------------------------
+---------------------------------------------------***********-----------------------------------------------------------------------------------------------
 # FOR CONNECTING KALI WITH COMMAND PROMPT
 KALI----->PLAYER----------->NETWORK ADAPTER--------->NAT------>OK
 IN ACADEMY, DHCLIENT -V ENS33
 BOUND IP ADDRESS---->PING THAT IP ADDRESS IN COMMAND PROMPT
 SSH ROOT@IP ADDRESS
-# ADD SPLUNK FORWARDER
+# ADD SPLUNK FORWARDER in academy
 CHECK WHOAMI WHETHER IN LINUX OR NOT
+          ** COPY THE CODE FROM SPLUNK INSTALLATION**
 useradd -m splunkfwd
 groupadd splunkfwd
 export SPLUNK_HOME="/opt/splunkforwarder"
 mkdir $SPLUNK_HOME
+           ** copy from splunk downloader**
 wget -O splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb "https://download.splunk.com/products/universalforwarder/releases/9.2.1/linux/splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb"
 ls
 dpkg -i splunkforwarder_package_name.deb -->put package name found in ls
@@ -288,7 +292,7 @@ action-->inbound-->port-->[tcp/udp]-->new rule --/specific 9997---> ok give name
 subnet calculator-->paste the window ip and calculate 
 inbound-->tcp/udp bound---->scope-->these all ip---> paste the from and to ip -->
 **COMMANDS TO OPEN THE PORT**
-net discover-->open new cmd -->ip a[use the ip in old tab]
+net discover(shows the ip range)-->open new cmd -->ip a[use the ip in old tab]
 ip generated upto 3 lines
 nano target.txt
 cat target.txt
@@ -299,12 +303,6 @@ nmap $target -p21,22,80 -A -v -min-rate=3000 open_service.txt (port of tcp,ftp,h
 Going into ftp--> ftp $target
 say bye
 cat note.txt(shows the hint)
-
-
-
-
-
-
 **NSE**--->N Map Scripting Engine 
 PORT SCANNING
 -p, -p1-65535 --min-rate=3000 -v -Pn, -p u:11 , -p T:21
@@ -314,6 +312,13 @@ Anonyums login allowed means username is anonmuns
 Directory Brusting /**fuzzing**-finds the domain's no.of pages /files-->useful attack 
 **tools**:dirb,wfuzz,gobuster,ffuf
 Dirb [url]
+**Interview questions:**
+What is the use of ping?-->To communicate the window and acdemy,kali
+what is the use of ssh?-->Secure Shell (for remote desktop,remotely connect others device,copy/paste) 
+SPLUNK--->run in windows
+Splunk forwarder-->forward the logs and the server will recevie the data
+In which directory linux logs have saved-->/var/log (stored in variable)  
+Port--->
 
 
 
