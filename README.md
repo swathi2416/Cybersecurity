@@ -34,30 +34,31 @@ for connecting 2 routers serial cables r used
 Hacking - gaining unauthorized access
 ethical hacking-gaining unauthorized access with written concern
 web application peneration/security testing
-web page-ideas in written format
-web site-collection of webpages
-web application-where user interaction is high
-web server-
+**web page**-ideas in written format
+**web site**-collection of webpages
+**web application**-where user interaction is high
+**web serve**r-
 Offensive(red) and defensive(blue)-soc(security operation )reverse engineering,both(purple)
 **3 type of hackers:**
-white hat(architecture of web application),black hat,grey hat
+**white** hat(architecture of web application),**black** hat,**grey** hat
 hactivism - social purpose
-**CIA**-Confidentiality,Integrity,Availability
+**CIA**-Confidentiality(saving data),Integrity(data is in motion maintaing originality),Availability
 authentication-verifying someones indentification
 **3 factors**: something u know,something u have,someyhing u are(fingerprint)
-integrity-orginality 
+**integrity**-orginality 
 athourization/access control-permission
 conversion of original data to sifer data-encrpytion
-breach-loss of control
+**breach**-loss of control
 event-any observable occurance
-incident-whichs affects CIA
-intrusion-security event
-threat-possibility to damage
-TOE-Target of Evaluation
+**incident**-whichs affects CIA
+**intrusion**-security event
+**threat**-possibility to damage
+**TOE**-Target of Evaluation
 **Attacks:**
 **ransomeware** - focusing on microsoft os by encrypting the messages and demaning the payment in 2017
 **botnets**-done by bots focusing on online customers by changing their ip address
 **phising**- social engineering attack , it is a difficult attack by cliking a link , downloading a document
+
 **chain of custody**(forensic security)-prove in court about logs
 logs-os logs,data logs,application level logs ,network logs
 steps to treat a crime: identify the request,check the type of authorization,response should have awarness about each specific attacks
@@ -138,15 +139,15 @@ md4 hash generator to get hash
 brute force attack is all possible permutation and combination
 finding password from txt document is called dictonary attack
 a set of tools used for penetration testing of web applications - *BURPSUITE*
-Which edition of Burp Suite runs on a server and provides constant scanning for target web apps? - *Burp Suite Enterprise*
+Which edition of Burp Suite runs on a server and provides constant scanning for target web apps? - ***Burp Suite Enterprise***
 Burp Suite is frequently used when attacking web applications and __ applications - *Mobile*
-Which Burp Suite feature allows us to intercept requests between ourselves and the target? - *Proxy*
+Which Burp Suite feature allows us to intercept requests between ourselves and the target? - ***Proxy***
 Which Burp tool would we use to brute-force a login form? - *Intruder*
-What menu provides information about the actions performed by Burp Suite, such as starting the proxy, and details about connections made through Burp? - *Event log*
-Which tab Ctrl + Shift + P will switch us to? - *Proxy tab*
-In which category can you find a reference to a "Cookie jar"? - *Sessions*
-In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour? - *Suite*
-What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite? - *Hotkeys*
+What menu provides information about the actions performed by Burp Suite, such as starting the proxy, and details about connections made through Burp? -** *Event log***
+Which tab Ctrl + Shift + P will switch us to? -** *Proxy tab***
+In which category can you find a reference to a "Cookie jar"? - ***Sessions***
+In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour? - ***Suite***
+What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite? - ***Hotkeys***
 If we have uploaded Client-Side TLS certificates, can we override these on a per-project basis (yea/nay)? -*yea*
 3 ,**TLS** (used to change key) handshake  will occur in https(assymetric)(encrypted)(port 80)(secured)
 urgent and push flag will send the packets automatically
@@ -322,8 +323,26 @@ What is the use of ping?-->To communicate the window and acdemy,kali
 what is the use of ssh?-->Secure Shell (for remote desktop,remotely connect others device,copy/paste) 
 SPLUNK--->run in windows
 Splunk forwarder-->forward the logs and the server will recevie the data
-In which directory linux logs have saved-->/var/log (stored in variable)  
-Port--->
+In which directory linux logs have saved-->/var/log (stored in variable) 
+DDOS ATTACK ---->many people targeted on 1 system
+dos attack ---->shut down a machine or network, making it inaccessible to its intended users. 
+Ransomeware
+worm-->making  self duplicate  and spread to the computers and virus-->spread  by contact like using pendrive  
+
+------------------------------**********************************----------------------------
+**CHECK POINT **-->company
+zero-day vulnerabilities-->Till now no one find the vulnerabilities
+**OFCP**->exam for offensive
+**TYPES OF FOOT PRINTING**---> used to gather as much data as possible about a specific targeted computer system
+**ACTIVE**-->interaction to target
+**PASSIVE**-->indirect intraction to target
+**OSINT**--->OPen Source Intelligence
+**Cyber chef**-->for hash vaues
+
+
+
+
+
 
 
 
