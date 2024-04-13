@@ -50,7 +50,7 @@ athourization/access control-permission
 conversion of original data to sifer data-encrpytion
 **breach**-loss of control
 event-any observable occurance
-**incident**-whichs affects CIA
+**incident**-which affects CIA
 **intrusion**-security event
 **threat**-possibility to damage
 **TOE**-Target of Evaluation
@@ -327,17 +327,24 @@ In which directory linux logs have saved-->/var/log (stored in variable)
 DDOS ATTACK ---->many people targeted on 1 system
 dos attack ---->shut down a machine or network, making it inaccessible to its intended users. 
 Ransomeware
-worm-->making  self duplicate  and spread to the computers and virus-->spread  by contact like using pendrive  
+worm-->making  self duplicate  and spread to the computers and virus-->spread  by contact like using pendrive 
+What are the steps?**NIST**---> **INCIDENT REPONSE TEAM**-->Indentify(assests like how many pc,risks),Protect,Detect,Response,Recover
+
 
 ------------------------------**********************************----------------------------
 **CHECK POINT **-->company
-zero-day vulnerabilities-->Till now no one find the vulnerabilities
+**zero-day vulnerabilities**-->Till now no one find the vulnerabilities(no solutions)
 **OFCP**->exam for offensive
 **TYPES OF FOOT PRINTING**---> used to gather as much data as possible about a specific targeted computer system
 **ACTIVE**-->interaction to target
 **PASSIVE**-->indirect intraction to target
 **OSINT**--->OPen Source Intelligence
-**Cyber chef**-->for hash vaues
+**Cyber chef**-->for hash values
+**MITM**-->Man in the middle attack
+**BackDoor**-->Persistance 
+**NIST**---> **INCIDENT REPONSE TEAM**-->Indentify(assests like how many pc,risks),Protect,Detect,Response,Recover
+Preparation-->Detection-->Containment Eradication and Recovery-->Post-Incident Activity(summary[MOM])
+
 
 
 
