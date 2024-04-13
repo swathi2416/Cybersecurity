@@ -6,9 +6,9 @@ Attacks-cracking (using) hardware without permission,
 securing the data, resources
 safe gurading
 **controls:**
-1.phsical control
-2.administrative control
-3.logical control
+1.phsical control-->manholes,logs
+2.administrative control-->policy,procedure
+3.logical control-->password,otp,username
 Port scanning
 protocols(sets of rules)
 **ports**(65,535-tcp,65,535-udp-1,73000 ports)entry gate
@@ -49,9 +49,9 @@ authentication-verifying someones indentification
 athourization/access control-permission
 conversion of original data to sifer data-encrpytion
 **breach**-loss of control
-event-any observable occurance
+**event** -any observable occurance
 **incident**-which affects CIA
-**intrusion**-security event
+**intrusion**-security event to prevent intrusion **IPS**-->Intrusion Prevention Service-->Detect and prevent the threat/**IDS**-->Detect the intrusion
 **threat**-possibility to damage
 **TOE**-Target of Evaluation
 **Attacks:**
@@ -329,6 +329,8 @@ dos attack ---->shut down a machine or network, making it inaccessible to its in
 Ransomeware
 worm-->making  self duplicate  and spread to the computers and virus-->spread  by contact like using pendrive 
 What are the steps?**NIST**---> **INCIDENT REPONSE TEAM**-->Indentify(assests like how many pc,risks),Protect,Detect,Response,Recover
+How do u assess the risk? liklehood and risk
+assymertic/symmetric encryption
 
 
 ------------------------------**********************************----------------------------
@@ -344,6 +346,20 @@ What are the steps?**NIST**---> **INCIDENT REPONSE TEAM**-->Indentify(assests li
 **BackDoor**-->Persistance 
 **NIST**---> **INCIDENT REPONSE TEAM**-->Indentify(assests like how many pc,risks),Protect,Detect,Response,Recover
 Preparation-->Detection-->Containment Eradication and Recovery-->Post-Incident Activity(summary[MOM])
+**DLP**-->Data Loss Pevention
+WPA 3 lastest version of router
+**Firewall**-->Block the traffic(Transport Layer)
+**Firewall services**-->1.Packet filtering
+                    2.Stateful Packet Inspection (Firewall knows about the connection)
+                     stateless Packet Inspection  (Firewall doesnot know the packets)
+                    3.Proxying
+                    4.Nat
+**HIDS** Host Based Intrusion Detection System
+**NIDS** Network Based Intrusion Detection System
+**MDM** Mobile Device Mangement
+End point Protection-->Antivirus
+Compliance,confriming to be a rule(following)-->policy,procedure,law,standard
+
 
 
 
