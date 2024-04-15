@@ -361,6 +361,24 @@ WPA 3 lastest version of router
 **MDM** Mobile Device Mangement
 End point Protection-->Antivirus
 Compliance,confriming to be a rule(following)-->policy,procedure,law,standard
+CISCO WSA - Secure Web Appliance 
+SSO -Single Sign On - highly sophisticated authentication
+Cloud Service Models - SaaS - Software as a Service -  allows users to connect to and use cloud-based apps over the Internet - Netflix
+                       PaaS - Platform as a Service -  a complete development and deployment environment in the cloud - Google App Engine
+                       IaaS - Infrastructure as a Service - Cisco Webex , Salesforce
+S3 bucket -->storage bucket in aws
+FTP-21
+SSH-22
+HTTP-443
+PING has no port
+mysql-3306
+ms sql-1433
+
+**ippsec** **david bumbal**
+
+                       
+                       
+                       
 
 
 
