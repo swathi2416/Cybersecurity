@@ -37,7 +37,7 @@ web application peneration/security testing
 **web page**-ideas in written format
 **web site**-collection of webpages
 **web application**-where user interaction is high
-**web serve**r-
+**web server**-
 Offensive(red) and defensive(blue)-soc(security operation )reverse engineering,both(purple)
 **3 type of hackers:**
 **white** hat(architecture of web application),**black** hat,**grey** hat
@@ -260,6 +260,8 @@ KALI----->PLAYER----------->NETWORK ADAPTER--------->NAT------>OK
 IN ACADEMY, DHCLIENT -V ENS33
 BOUND IP ADDRESS---->PING THAT IP ADDRESS IN COMMAND PROMPT
 SSH ROOT@IP ADDRESS
+cd /opt/splunkforwarder/bin
+d
 # ADD SPLUNK FORWARDER in academy
 CHECK WHOAMI WHETHER IN LINUX OR NOT
           ** COPY THE CODE FROM SPLUNK INSTALLATION**
