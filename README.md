@@ -1,6 +1,6 @@
 Networks
-vulnerability**(weakness)**
-hashcat,brute force-password cracking tool
+vulnerability **(weakness)**
+hashcat,brute force-**password cracking tool**
 Attacks-cracking (using) hardware without permission,
 **RAT**-Remote Access Trojan
 securing the data, resources
@@ -38,7 +38,7 @@ web application peneration/security testing
 **web site**-collection of webpages
 **web application**-where user interaction is high
 **web server**-
-Offensive(red) and defensive(blue)-soc(security operation )reverse engineering,both(purple)
+Offensive **(red)** and defensive **(blue)**-soc(security operation )reverse engineering,both(purple)
 **3 type of hackers:**
 **white** hat(architecture of web application),**black** hat,**grey** hat
 hactivism - social purpose
@@ -86,7 +86,7 @@ USERNAME LOGGED TO DEPLOYED LINUX MACHINE-*tryhackme*
 If we wanted to run a command in the background, what operator would we want to use-*&*
 If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be-*echo password123>passwords*
 Now if I wanted to add "tryhackme" to this file named "passwords" but also keep "passwords123", what would my command be-*echo tryhackme>>passwords*
-*LINUX IS USED IN:*
+**LINUX IS USED IN:**
          CAR,ENTERTAINMENT,REGISTER IN SHOPS,TRAFFIC LIGHT INFRASTRUCTURE
 *echo*== Output any text that we provide
 *whoami* ==	Find out what user we're currently logged in as!
@@ -333,6 +333,7 @@ worm-->making  self duplicate  and spread to the computers and virus-->spread  b
 What are the steps?**NIST**---> **INCIDENT REPONSE TEAM**-->Indentify(assests like how many pc,risks),Protect,Detect,Response,Recover
 How do u assess the risk? liklehood and risk
 assymertic/symmetric encryption
+cloud security 
 
 
 ------------------------------**********************************----------------------------
@@ -374,7 +375,25 @@ PING has no port
 mysql-3306
 ms sql-1433
 
-**ippsec** **david bumbal**
+**ippsec** **david bumbal**--->channel
+**Public cloud security** involves protecting data and resources stored in cloud services provided by third-party vendors and accessible over the internet.eg: Google we can use ssh
+**private cloud security**-private cloud is like your own personal space on the internet where you store important things, like photos, documents, and maybe even some secrets.eg:google account with email and passwords
+**Community cloud security** involves keeping shared data and resources safe in a cloud environment that's used by multiple organizations or groups, like schools, businesses, or government agencies.eg:using specfic website for a group of people
+**Hybrid cloud security** involves safeguarding data and resources in an environment that combines both private and public cloud infrastructure. rather than password use public and private key
+aws, google cloud, azure,digital ocean in **cloud services providers**
+data breaches,compliance concerns,data loss,inside threats--- **cloud security challenges**
+GDPR-Gerneral Dta Protection Regulation
+GRC-General Regulation Compliance
+HIPAA-Health Insurance Portability and Accountability Act-->protection for medical industry in USA
+PCIDSS-Payement Card Industry Data Security Standard-->Protect the seensitive data and each payment
+IS0 27001 International Standard Outlining -->Information and overall security/(ISMS PolicyInformation Security Management System)
+CMM-Capability Maturity Model . mostly India have level 3 companies 
+Proactive measure-->preventing
+Reactive measure-->
+**DAC**-->Discretionary Acees Control based on your requirement u can demand the access and you can share the work
+**RBAC**-->Role based access control provide specific role based reqirements
+**MAC**->Mandatory acess control provide specific access to complete the work
+
 
                        
                        
