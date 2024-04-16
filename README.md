@@ -333,7 +333,10 @@ worm-->making  self duplicate  and spread to the computers and virus-->spread  b
 What are the steps?**NIST**---> **INCIDENT REPONSE TEAM**-->Indentify(assests like how many pc,risks),Protect,Detect,Response,Recover
 How do u assess the risk? liklehood and risk
 assymertic/symmetric encryption
-cloud security 
+cloud security types
+single or double quotes are used in identify the error in sql injection
+prevent to filter the data in both frontend and backend
+
 
 
 ------------------------------**********************************----------------------------
@@ -393,6 +396,22 @@ Reactive measure-->
 **DAC**-->Discretionary Acees Control based on your requirement u can demand the access and you can share the work
 **RBAC**-->Role based access control provide specific role based reqirements
 **MAC**->Mandatory acess control provide specific access to complete the work
+FTP works on clear txt tool **putty**
+no 1 wap is cloud flare
+waf is in layer 7 btw web application and internet
+**WAF TYPES**
+network based
+cloud based
+host based
+Types of attacks which prevent wap
+ddos attack
+cross site scripting (XSS) attack-we can run script in another website 
+local file inclusion and remote file inclusion-->path traversal
+**Ettercap** is -in-the-middle attacks(not used in organization) on LAN that includes **sniffing** of live connections, content filtering on the fly, and many other features. It supports active and passive dissection of many protocols (including ciphered protocols) and includes many features for network and host analysis.
+
+
+
+
 
 
                        
