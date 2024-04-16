@@ -408,6 +408,8 @@ ddos attack
 cross site scripting (XSS) attack-we can run script in another website 
 local file inclusion and remote file inclusion-->path traversal
 **Ettercap** is -in-the-middle attacks(not used in organization) on LAN that includes **sniffing** of live connections, content filtering on the fly, and many other features. It supports active and passive dissection of many protocols (including ciphered protocols) and includes many features for network and host analysis.
+spear phising-specific target
+whaling-targeting top management
 
 
 
