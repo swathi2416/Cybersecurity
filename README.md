@@ -336,6 +336,11 @@ assymertic/symmetric encryption
 cloud security types
 single or double quotes are used in identify the error in sql injection
 prevent to filter the data in both frontend and backend
+edr, xdr, sop, seim, soar
+MITRE attack
+Playbook 
+adversery tactics(vulnerability assessments) and techniques(burp suite ,kali)
+
 
 
 
@@ -410,6 +415,11 @@ local file inclusion and remote file inclusion-->path traversal
 **Ettercap** is -in-the-middle attacks(not used in organization) on LAN that includes **sniffing** of live connections, content filtering on the fly, and many other features. It supports active and passive dissection of many protocols (including ciphered protocols) and includes many features for network and host analysis.
 spear phising-specific target
 whaling-targeting top management
+Standard Operating Procedure -->sop(specific time)low -90 mins
+performance inprovement program -->PIP
+SLA-->Service Level Agreement
+
+
 
 
 
