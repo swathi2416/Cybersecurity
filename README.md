@@ -418,6 +418,10 @@ whaling-targeting top management
 Standard Operating Procedure -->sop(specific time)low -90 mins
 performance inprovement program -->PIP
 SLA-->Service Level Agreement
+**DIAMOND MODEL**
+Access mode 777 makes a file fully readable, writable, and executable for everyone
+online password cracking:Brupsuite[UI](used in http),Hydra(supports limited passwords)[CLI]
+offline password cracking -CPU/GPU(which has hash value),hashcat,Jhon
 
 
 
