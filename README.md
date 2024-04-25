@@ -424,6 +424,14 @@ online password cracking:Brupsuite[UI](used in http),Hydra(supports limited pass
 offline password cracking -CPU/GPU(which has hash value),hashcat,Jhon
 advent of cyber in try hack me
 volatality 3 for digital forensics
+ghidra-->forensic tool
+channel-->jhon hammond
+veracrypt-for encryption
+
+---------Interview Question-----
+IR-->Incidence Response Plan
+BC-->Business Contiuous Plan
+DR-->Disaster Recovery Plan
 
 
 
