@@ -432,6 +432,23 @@ veracrypt-for encryption
 IR-->Incidence Response Plan
 BC-->Business Contiuous Plan
 DR-->Disaster Recovery Plan
+**nmap scanning command** nmap 10.10.251.44 -p1-65535 --min-rate=300 -v -oN open_ports.txt
+                          nmap 10.10.251.44 -p22,445,139,80 -A --min-rate=300 -v -oN open_services.txt
+                          smbclient -L //10.10.251.44/--->to list the drive in the sepecific ip
+                          smbclient //10.10.251.44/websvr
+                          ls
+                          get enter.txt
+
+                          cat enter.txt
+                          wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/raft-medium-files.txt -u http://10.10.251.44/FUZZ -t 200 --hc 404,403
+                          dirb http://10.10.251.44/subrion/ /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -r -f -N 302 
+                          wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/common.txt -u http://10.10.251.44/subrion/FUZZ -t 200 --hc 404,403,302,301
+                            wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/common.txt -u http://10.10.251.44/subrion/FUZZ -t 200 --sc 200
+                          
+                          
+
+
+
 
 
 
