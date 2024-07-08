@@ -448,6 +448,33 @@ DR-->Disaster Recovery Plan
                           python 49876.py -u http://10.10.61.63/subrion/panel/ -l 'admin' -p 'Scam2021'
                           whoami
                           ls
+-----------------------> BURP SUITE------------------------------->
+Burp suite(**swis army knife**)
+pen testing tool used to find **security vulnerable**
+used to test mobile and web application
+It is a proxy tool -->acts as a **middleware** between client and server
+It has scanner-->active and passive
+task bar-->new scan-->crawl-->paste the url to scan which website to be scan
+scan configuration used to custom the scanning speed
+live task-->current live proxy will run
+target-->site map -->click one event and give add scope .In scope verify which is frontend and backend url will search the given site only it is used to check the vulnerability
+Issue definition is used to make the report.
+--------proxy tab------------
+INTERCEPT----->turn on intercept,if intercept on it  gets the request that is blocked here itself after refresh the page (it will caputure the req in the browser itself)
+HTTP HISTORY--->shows the respose,history,domain,subdomain
+WEBSCOKET HISTORY---> shows the using application uses websocket or not
+OPTIONS--> mostly v will use proxy listener,if any issues in certificate use the import/ export ad ca certificate
+              -------INTRUDER(automated attacks)------
+              if any website is logined with some digit of opt turn on intercept it will show the opt that is entered and send to intruder, it will the logined page it sets the predefined attcking factor give clear and choose the attacking phase like byepassing here we r going to byepass the opt so copy it and give add
+ Go to playload and choose the attack like numbers , give the range of attack from where to where click attack on the top           **Attacks**--->1 snipper --(payload set 1) it will attck in only one particular place.
+**Batteringram** -->(payloadset 1)attack doing in simultaneous place like ging 2 opt in same playload
+**Pitchfork**--> (playload set 2) having 2 payloads like 1 is number another is variable
+**clusterbomb**---> can add 20 type of payload for that in payload position give more payloads so it will automatically incrceased upto 20 sets.20 attacks in same tym
+                ----REPEATER TAB----- 
+modify the code,parameter and u can see the immediate response in below .manual attack can be done in repeater it is come from target to repeater
+                 ------bapp store---(allowed for burpsuite pro)
+have the extensions ,plgins used to find the extra vulnerability
+                
                        
 
 
