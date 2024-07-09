@@ -459,21 +459,50 @@ scan configuration used to custom the scanning speed
 live task-->current live proxy will run
 target-->site map -->click one event and give add scope .In scope verify which is frontend and backend url will search the given site only it is used to check the vulnerability
 Issue definition is used to make the report.
---------proxy tab------------
-INTERCEPT----->turn on intercept,if intercept on it  gets the request that is blocked here itself after refresh the page (it will caputure the req in the browser itself)
-HTTP HISTORY--->shows the respose,history,domain,subdomain
-WEBSCOKET HISTORY---> shows the using application uses websocket or not
-OPTIONS--> mostly v will use proxy listener,if any issues in certificate use the import/ export ad ca certificate
+**sitemap**--->domain,subdomain(page resources),root doamin,configuration files tree struture contains domain ,directories,files.target application.
+**scope**-->url,sub domain should be given to scope in collection of traffics we see the specific url  with filteration by using the scope.we can easy analyse , it will add the un wanted sites in the scope.Inscope and outscope.
+             --------**proxy tab**------------
+**proxy**--->catch the response and request and make analyse
+**INTERCEPT**----->turn on intercept,if intercept on it  gets the request that is blocked here itself after refresh the page (it will caputure the req in the browser itself)
+if intercept is turn on the websibe cannot be reloaded old reload click forward option then it will move to proxy and get reloaded if it  droped the website will show error and it cannot be reloaded
+How to intercept
+ Firstly configure the proxy,it is get listened in certain port
+ to trigger the proxy paste the port in search engine it displays the burp suite this is used to check the proxy is working or not
+ To connect the browser and proxy use an extension called foxy proxy
+**HTTP HISTORY**--->shows the respose,history,domain,subdomain
+**WEBSCOKET HISTORY**---> shows the using application uses websocket or not, it provide real time communication like breaking news.maintain presiestence in both client and server side
+**OPTIONS**--> mostly v will use proxy listener,if any issues in certificate use the import/ export ad ca certificate
               -------INTRUDER(automated attacks)------
               if any website is logined with some digit of opt turn on intercept it will show the opt that is entered and send to intruder, it will the logined page it sets the predefined attcking factor give clear and choose the attacking phase like byepassing here we r going to byepass the opt so copy it and give add
  Go to playload and choose the attack like numbers , give the range of attack from where to where click attack on the top           **Attacks**--->1 snipper --(payload set 1) it will attck in only one particular place.
 **Batteringram** -->(payloadset 1)attack doing in simultaneous place like ging 2 opt in same playload
 **Pitchfork**--> (playload set 2) having 2 payloads like 1 is number another is variable
 **clusterbomb**---> can add 20 type of payload for that in payload position give more payloads so it will automatically incrceased upto 20 sets.20 attacks in same tym
-                ----REPEATER TAB----- 
+                ----**REPEATER TAB**----- 
+only req can  send to repeater  not response
+used for analsising
 modify the code,parameter and u can see the immediate response in below .manual attack can be done in repeater it is come from target to repeater
-                 ------bapp store---(allowed for burpsuite pro)
-have the extensions ,plgins used to find the extra vulnerability
+               ----**sequencer** ------
+analysing csrf nd anti csrf tokens,password resetter token,session tokens
+          ----------**decoder**----------
+decodes the given value like octal, binary,html no need for online decoder
+             -----------**comparer**----------
+compares 2 values and show the difference in graphical manner
+v can send req and res to comparer from http history
+            -----------**logger**--------
+stores events according to  default memory limit ,bulid by many multi threading tools
+          ----------**extender**---------
+if user added any new extension it manages it
+             ------**bapp store**---(allowed for burpsuite pro)
+have the extensions ,plugins used to find the extra vulnerability,v can add new extension(download jython)
+**Host**--->domain
+**method**-->post get
+**url**-->queries , url behind the domain 
+**link for http request codes**   https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+**tls**-->http,http
+**burp collabrator client**-->DNS prob,used in asynchronous data transfer,blind age scripting, if trigger pointer is stimulated the response will notify here by this v can conclude this the playload is workking properly
+**RAT Tool**-->Remote Adminstration Tool.RAT remote tools are designed to simplify Linux, macOS, and Windows administration by allowing you to perform administration and support tasks from a single remote console.it is sub category of torjan.
+**TROJAN** --->Trojans are executable applications, documents, or files with embedded executable code appearing as typical, innocuous functions. Trojans contain malicious, hidden components that infect or harm the target's device.
                 
                        
 
