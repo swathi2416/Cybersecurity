@@ -503,6 +503,32 @@ have the extensions ,plugins used to find the extra vulnerability,v can add new 
 **burp collabrator client**-->DNS prob,used in asynchronous data transfer,blind age scripting, if trigger pointer is stimulated the response will notify here by this v can conclude this the playload is workking properly
 **RAT Tool**-->Remote Adminstration Tool.RAT remote tools are designed to simplify Linux, macOS, and Windows administration by allowing you to perform administration and support tasks from a single remote console.it is sub category of torjan.
 **TROJAN** --->Trojans are executable applications, documents, or files with embedded executable code appearing as typical, innocuous functions. Trojans contain malicious, hidden components that infect or harm the target's device.
+            ---------**SQL INJECTION**-------------
+SQL-Structured Query Language
+value+query==result
+sql query works based on **values** from **data**,**queries** from **function**
+data stored in rows and columns
+It is divided into 4 categories:1.error,bolean,time,union based
+sql is limited by:
+1.validate user inputs
+2.santie with special character like " and'
+3.Prefer whitelist over **blacklist**-->some keywords are put in blacklist hacker will identify the stored keywords then the hacker will  byepass easily so prefer whitelist it is like buffer allows only approved characters.
+4.limit the read access and previleages
+5.Scanning and updating should be frequently
+6.Dont link with other tables
+7.use web application firewall
+**FUNCTIONS**:retrive,update,post,delete
+**USES**performance ,size,security,transparency-->data called from DB server
+**Step 1**:retriving hidden data
+attack should be made in keywords 
+ In sql  **--** it is considered as comments the query after this has no power
+ Commonly used payload is ' +OR+1=1-- here,+ is the space represents url embedding the acutal payload is for example 'Gifts' OR 1=1-- **EXPALNATION**:the 'Gifts' it is used to display the gifts in the website while 1=1 displays the product's whole category ,thus we can see the released and unreleased products.  
+ 1=1(true)
+ 1=2(false)
+ 
+
+
+
                 
                        
 
