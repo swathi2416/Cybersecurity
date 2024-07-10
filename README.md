@@ -509,9 +509,9 @@ value+query==result
 sql query works based on **values** from **data**,**queries** from **function**
 data stored in rows and columns
 It is divided into 4 categories:1.error,bolean,time,union based
-sql is limited by:
+**sql is limited by:**
 1.validate user inputs
-2.santie with special character like " and'
+2.sanitzie with special character like " and '
 3.Prefer whitelist over **blacklist**-->some keywords are put in blacklist hacker will identify the stored keywords then the hacker will  byepass easily so prefer whitelist it is like buffer allows only approved characters.
 4.limit the read access and previleages
 5.Scanning and updating should be frequently
@@ -521,10 +521,16 @@ sql is limited by:
 **USES**performance ,size,security,transparency-->data called from DB server
 **Step 1**:retriving hidden data
 attack should be made in keywords 
+            ----**Display the products**---------
  In sql  **--** it is considered as comments the query after this has no power
- Commonly used payload is ' +OR+1=1-- here,+ is the space represents url embedding the acutal payload is for example 'Gifts' OR 1=1-- **EXPALNATION**:the 'Gifts' it is used to display the gifts in the website while 1=1 displays the product's whole category ,thus we can see the released and unreleased products.  
+ Commonly used payload is **' +OR+1=1--** here,+ is the space represents url embedding the acutal payload is for example 'Gifts' OR 1=1-- **EXPALNATION**:the 'Gifts' it is used to display the gifts in the website while 1=1 displays the product's whole category ,thus we can see the released and unreleased products.  
  1=1(true)
  1=2(false)
+           ------------**Application logic for login**---------
+For ex: Login app
+1.username+sqli--->payload
+2.password(dummy),these 2 I/P field are stored in DB
+3.login button(bypass)
  
 
 
