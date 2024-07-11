@@ -531,6 +531,16 @@ For ex: Login app
 1.username+sqli--->payload
 2.password(dummy),these 2 I/P field are stored in DB
 3.login button(bypass)
+for this go to login pagin and give any name with **'--** like **dummy'--** by using without pass word it will login ,the query is SELECT* FROM users WHERE username='dummy'-- 'And password ='21234'--->password will be byepassed.
+            ---------------**retriving data from other databases tables**-----------
+Here **UNION attacks** are used,we can use own values by injecting
+SELECT * FROM TABLE1 UNION SELECT U,P FROM TABLE2 // First choose the column name  with datatype 
+NULL- Its supports Any data type
+Here,use null and order by for displaying no.of columns
+order by -->sorting
+ 
+         
+         
  
 
 
