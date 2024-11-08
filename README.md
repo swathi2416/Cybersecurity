@@ -448,7 +448,7 @@ DR-->Disaster Recovery Plan
                           python 49876.py -u http://10.10.61.63/subrion/panel/ -l 'admin' -p 'Scam2021'
                           whoami
                           ls
------------------------> BURP SUITE------------------------------->
+-----------------------> **BURP SUITE**------------------------------->
 Burp suite(**swis army knife**)
 pen testing tool used to find **security vulnerable**
 used to test mobile and web application
@@ -475,7 +475,7 @@ How to intercept
               -------INTRUDER(automated attacks)------
               if any website is logined with some digit of opt turn on intercept it will show the opt that is entered and send to intruder, it will the logined page it sets the predefined attcking factor give clear and choose the attacking phase like byepassing here we r going to byepass the opt so copy it and give add
  Go to playload and choose the attack like numbers , give the range of attack from where to where click attack on the top           **Attacks**--->1 snipper --(payload set 1) it will attck in only one particular place.
-**Batteringram** -->(payloadset 1)attack doing in simultaneous place like ging 2 opt in same playload
+**Batteringram** -->(payloadset 1)attack doing in simultaneous place like  2 opt in same playload
 **Pitchfork**--> (playload set 2) having 2 payloads like 1 is number another is variable
 **clusterbomb**---> can add 20 type of payload for that in payload position give more payloads so it will automatically incrceased upto 20 sets.20 attacks in same tym
                 ----**REPEATER TAB**----- 
